@@ -826,6 +826,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.35);
   -o-box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.35);
   box-shadow: inset 0px 0px 1px 2px rgba(0, 0, 0, 0.35);
+  border: none;
 }
 
 input[type="text"] {
