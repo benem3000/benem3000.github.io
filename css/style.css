@@ -804,11 +804,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .form-control {
-  -webkit-box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, .4);
-  -moz-box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, .4);
-  -ms-box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, .4);
-  -o-box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, .4);
-  box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.28);
   border: none;
   font-size: 13px !important;
   font-weight: 300;
@@ -821,11 +821,11 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 1s;
 }
 .form-control:focus, .form-control:active {
-  -webkit-box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, .4);
-  -moz-box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, .4);
-  -ms-box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, .4);
-  -o-box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, .4);
-  box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: inset 2px 2px 3px 0px rgba(0, 0, 0, 0.28);
   border: none;
 }
 
