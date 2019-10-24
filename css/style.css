@@ -629,11 +629,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .sermon-entry {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 .sermon-entry h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 12px;
+  margin-bottom: 3px;
 }
 
 .sermon {
@@ -645,9 +645,9 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: table;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   z-index: 1;
-}
+  }
 @media screen and (max-width: 768px) {
   .sermon {
     height: 400px;
