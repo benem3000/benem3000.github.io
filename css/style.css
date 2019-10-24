@@ -967,6 +967,8 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   background: rgba(220, 220, 220, .6);
   top: 0;
   right: 0;
