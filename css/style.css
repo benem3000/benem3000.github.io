@@ -967,7 +967,7 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: rgba(220, 220, 220, .5);
+  background: rgba(220, 220, 220, .6);
   top: 0;
   right: 0;
   top: 0;
@@ -983,8 +983,8 @@ input[type="text"] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  backdrop-filter: blur(4px);
-  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .6);
+  backdrop-filter: blur(4.5px);
+  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, 6.5);
   border-top-left-radius: 12px 14px;
   border-bottom-left-radius: 12px 14px;
 }
