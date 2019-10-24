@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   font-size: 13px;
   padding: 30px 20px;
-  color: rgba(176, 176, 176, 1);
+  color: #E0E0E0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 0, 0);
 }
 .fh5co-nav ul li a.donate {
-  color: #B0B0B0;
+  color: #fff;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li.has-dropdown .dropdown li a {
   padding: 2px 0;
   display: block;
-  color: #B0B0B0;
+  color: #E0E0E0;
   line-height: 1.2;
   text-transform: none;
   font-size: 13px;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #B0B0B0 !important;
+  color: #fff !important;
   position: relative;
 }
 .fh5co-nav ul li.active > a:after {
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-  background: #B0B0B0;
+  background: #E0E0E0;
   color: #000;
 }
 @media screen and (max-width: 768px) {
