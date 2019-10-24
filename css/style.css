@@ -986,7 +986,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   backdrop-filter: blur(4.5px);
-  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, 7);
+  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .65);
   border-top-left-radius: 12px 14px;
   border-bottom-left-radius: 12px 14px;
 }
@@ -1231,7 +1231,7 @@ padding-left: 10px;
   color: #fff;
   border: 2px solid #B0B0B0;
   backdrop-filter: blur(4px);
-  box-shadow: inset 0px 0px 20px 5px rgba( 220, 220, 220, .7);
+  box-shadow: inset 0px 0px 20px 5px rgba( 220, 220, 220, .65);
   border-radius: 30px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
