@@ -1227,11 +1227,11 @@ padding-left: 10px;
 }
 
 .btn-primary {
-  background: rgba(220, 220, 220, .28);
+  background: rgba(220, 220, 220, .6);
   color: #fff;
   border: 2px solid #B0B0B0;
   backdrop-filter: blur(4px);
-  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .5);
+  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .65);
   border-radius: 30px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
