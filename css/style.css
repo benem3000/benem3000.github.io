@@ -984,7 +984,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   backdrop-filter: blur(4px);
-  box-shadow: inset 100px 25px 225px 26px rgba( 170, 170, 170, .5);
+  box-shadow: inset 100px 25px 1200px 26px rgba( 170, 170, 170, .5);
   border-top-left-radius: 12px 14px;
   border-bottom-left-radius: 12px 14px;
 }
