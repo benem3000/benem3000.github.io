@@ -967,7 +967,7 @@ input[type="text"] {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: rgba(180, 180, 180, .37);
+  background: rgba(220, 220, 220, .37);
   top: 0;
   right: 0;
   top: 0;
@@ -984,7 +984,7 @@ input[type="text"] {
   -o-transition: 0.5s;
   transition: 0.5s;
   backdrop-filter: blur(4px);
-  box-shadow: inset 1000px 800px 1200px 1000px rgba( 220, 220, 220, .5);
+  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .5);
   border-top-left-radius: 12px 14px;
   border-bottom-left-radius: 12px 14px;
 }
@@ -1225,11 +1225,11 @@ padding-left: 10px;
 }
 
 .btn-primary {
-  background: rgba(160, 160, 160, .28);
+  background: rgba(220, 220, 220, .28);
   color: #fff;
   border: 2px solid #B0B0B0;
   backdrop-filter: blur(4px);
-  box-shadow: inset 0px 0px 35px 5px rgba( 220, 220, 220, .5);
+  box-shadow: inset 0px 0px 100px 5px rgba( 220, 220, 220, .5);
   border-radius: 30px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
