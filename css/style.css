@@ -27,7 +27,7 @@ body {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background: url("../images/palm.png") no-repeat 0 0 fixed;
+  background: url("../images/palm.jpg") no-repeat 0 0 fixed;
   background-size: cover;
 }
 .offcanvas #page {
