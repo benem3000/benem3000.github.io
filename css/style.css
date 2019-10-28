@@ -156,19 +156,10 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 28px 1em;
   }
 }
-.fh5co-nav #fh5co-logo {
-  font-size: 45px;
-  margin: 0;
-  padding: 1em 0;
-  font-family: "Source Sans Pro", sans-serif;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-@media screen and (max-width: 768px) {
-  .fh5co-nav #fh5co-logo {
-    border-bottom: none;
-    padding: .1em 0;
-  }
+@media (prefers-color-scheme: dark) {
+	.fh5co-nav .top-menu .row .row img {
+		filter: invert(1);
+	}
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -656,6 +647,75 @@ blockquote {
   left: 0;
   font-size: 18px;
 }
+/* Dropdown Button */
+.panel {
+  color: inherit;
+  background: rgba(60, 60, 60, 0.13);
+  border-radius: 7px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+.panel-default > .panel-heading {
+	background: rgba(60, 60, 60, 0.13);
+	border: none;
+	color: inherit;
+}
+.panel-default > .panel-heading:hover {
+	background: rgba(220, 220, 220, 1);
+	border: none;
+	color: inherit;
+}
+/* Dropdown button on hover & focus */
+.btn-about:hover, .btn-about:focus {
+  background: rgba(0, 0, 0, .3);
+  color: #fbfbfb;
+}
+@media (prefers-color-scheme: dark) {
+	.btn-about {
+		background: rgba(0, 0, 0, .2);
+	}
+	.btn-about:hover, .btn-about:focus {
+		background: rgba(220, 220, 220, .3);
+		color: black;
+	}
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.collapse {
+  position: static;
+  float: none;
+  background: rgba(0, 0, 0, 0.13);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 1;
+}
+.collapse-inner {
+  max-height: 300px;
+  overflow-x: hidden;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 .form-control {
   border: none;
   font-size: 13px !important;
@@ -1121,7 +1181,6 @@ input[type="text"] {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
