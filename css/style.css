@@ -119,6 +119,8 @@ h1, h2, h3, h4, h5, h6, figure {
   max-width: 1060px;
   margin: 0 auto;
   margin-bottom: 1em;
+  -webkit-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
+  -moz-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   backdrop-filter: blur(55px);
   padding-bottom: 2px;
@@ -126,6 +128,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media (prefers-color-scheme: dark) {
 	.container-wrap {
+  -webkit-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
+  -moz-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   background: rgba(60, 60, 60, 0.6)
 	}
@@ -222,6 +226,8 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav ul li a:hover {
   background: rgba(20, 20, 20, 0.2);
   border-radius: 7px;
+  -webkit-box-shadow: inset 2px 4px 4px 0px rgba(20, 20, 20, .07);
+  -moz-box-shadow: inset 2px 4px 4px 0px rgba(20, 20, 20, .07);
   box-shadow: inset 2px 4px 4px 0px rgba(20, 20, 20, .07);
 }
 .fh5co-nav ul li a:hover:after {
@@ -779,11 +785,20 @@ blockquote {
   text-decoration: none;
 }
 #fh5co-bible-verse .owl-theme .owl-dots .owl-dot span {
-	border: 2px solid white;
-  background: rgba(0, 0, 0, 0) !important;
+	border: 2px solid #fbfbfb !important;
+  background: transparent !important;
 }
 #fh5co-bible-verse .owl-theme .owl-dots .active span {
-  background: white !important;
+  background: #fbfbfb !important;
+}
+@media (prefers-color-scheme: dark) {
+	#fh5co-bible-verse .owl-theme .owl-dots .owl-dot span {
+		border: 2px solid black !important;
+		background: transparent !important;
+	}
+	#fh5co-bible-verse .owl-theme .owl-dots .active span {
+		background: black !important;
+	}
 }
 
 .fh5co-counters {
