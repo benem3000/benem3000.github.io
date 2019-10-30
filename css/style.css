@@ -656,11 +656,6 @@ blockquote {
   border: none;
   cursor: pointer;
   transition: all 1s;
-  max-height: 800px;
-  overflow-y: auto;
-}
-.nested {
-	max-height:775px;
 }
 .collapse {
 	overflow: hidden;
