@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   letter-spacing: .5px;
   line-height: 1.7;
-  background: rgba(220, 220, 220, 0.6);
+  background: rgba(220, 220, 220, 0.957);
   color: black;
 }
 @media (prefers-color-scheme: light) {
@@ -27,7 +27,7 @@ body {
 		letter-spacing: .5px;
 		line-height: 1.7;
 		color: black;
-		background: rgba(220, 220, 220, 0.6);
+		background: rgba(220, 220, 220, 0.957);
 	}
 }
 @media (prefers-color-scheme: dark) {
@@ -38,7 +38,7 @@ body {
 		letter-spacing: .5px;
 		line-height: 1.7;
 		color: #fbfbfb;
-		background: rgba(60, 60, 60, 0.6);
+		background: rgba(60, 60, 60, 0.957);
 	}
 }
 #page {
@@ -122,16 +122,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   -moz-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
-  backdrop-filter: blur(55px);
   padding-bottom: 2px;
-  background: rgba(220, 220, 220, .6)
+  background: rgba(220, 220, 220, .957)
 }
 @media (prefers-color-scheme: dark) {
 	.container-wrap {
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   -moz-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
-  background: rgba(60, 60, 60, 0.6)
+  background: rgba(60, 60, 60, 0.957)
 	}
 }
 @media screen and (max-width: 768px) {
@@ -653,10 +652,24 @@ blockquote {
   background: rgba(60, 60, 60, 0.13);
   border-radius: 7px;
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   cursor: pointer;
-  transition: .5s;
+  transition: all 1s;
+  max-height: 800px;
+  overflow-y: auto;
+}
+.nested {
+	max-height:775px;
+}
+.collapse {
+	overflow: hidden;
+}
+.panel-group {
+	margin-bottom: 0px;
+}
+.panel-title {
+	font-size: 24px;
 }
 .panel-default > .panel-heading {
 	background: rgba(60, 60, 60, 0.13);
@@ -879,15 +892,14 @@ input[type="text"] {
 #fh5co-footer {
   margin: 0 auto !important;
   margin-top: 20px !important;
-  background: rgba(220, 220, 220, 0.6) !important;
+  background: rgba(220, 220, 220, 0.957) !important;
   -webkit-box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
   -moz-box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
   box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
-  backdrop-filter: blur(55px) !important;
 }
 @media (prefers-color-scheme: dark) {
 	#fh5co-footer {
-		background: rgba(60, 60, 60, 0.6) !important;
+		background: rgba(60, 60, 60, 0.957) !important;
 		-webkit-box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
 		-moz-box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
 		box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
