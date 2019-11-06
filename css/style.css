@@ -49,8 +49,19 @@ body {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background: url("../images/palm.jpg") no-repeat 0 0 fixed;
-  background-size: cover;
+  background: url("../images/Newlogo.png") no-repeat 0 0 fixed;
+  background-position: center;
+  background-color: white;
+  background-size: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+	#page {
+		background: url("../images/Newlogo_White.png") no-repeat 0 0 fixed;
+		background-color: rgba(60, 60, 60, 1);
+		background-position: center;
+		background-size: auto;
+	}
 }
 .offcanvas #page {
   overflow: hidden;
@@ -93,7 +104,23 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 20px;
 }
-
+#header {
+	height: 100vh;
+	width: 100vw;
+	background: transparent;
+	position: relative;
+}
+#header i {
+	border: solid black;
+	border-width:0 1.8vw 1.8vw 0;
+	display: inline-block;
+	padding: 3px;
+	position: absolute;
+	bottom: 10px;
+	width: 5vw;
+	height: 5vw;
+	transform: rotate(45deg);
+}
 h1, h2, h3, h4, h5, h6, figure {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
@@ -116,21 +143,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .container-wrap {
-  max-width: 1060px;
   margin: 0 auto;
-  margin-bottom: 1em;
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   -moz-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
-  padding-bottom: 2px;
-  background: rgba(220, 220, 220, .957)
+  background: rgba(220, 220, 220, 1)
 }
 @media (prefers-color-scheme: dark) {
 	.container-wrap {
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   -moz-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
-  background: rgba(60, 60, 60, 0.957)
+  background: rgba(60, 60, 60, 1)
 	}
 }
 @media screen and (max-width: 768px) {
@@ -149,6 +173,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .top-menu {
   padding: 0 0;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 9999;
+  background: rgba(220, 220, 220, 0.65);
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .top-menu {
@@ -156,8 +185,8 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 @media (prefers-color-scheme: dark) {
-	.fh5co-nav .top-menu .row .row img {
-		filter: invert(1);
+	.fh5co-nav .top-menu {
+		background: rgba(60, 60, 60, 0.65);
 	}
 }
 .fh5co-nav a {
