@@ -51,7 +51,7 @@ body {
   transition: 0.5s;
   background: url("../images/Newlogo.png") no-repeat 0 0 fixed;
   background-position: center;
-  background-color: white;
+  background-color: rgba(220, 220, 220, 1);
   background-size: auto;
 }
 
@@ -110,16 +110,70 @@ p {
 	background: transparent;
 	position: relative;
 }
-#header i {
-	border: solid black;
-	border-width:0 1.8vw 1.8vw 0;
-	display: inline-block;
-	padding: 3px;
+.arrow {
+	width: 2vw;
+	height: 2vw;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.arrow:before {
+	content: ' ';
+	background: rgba(0, 0, 0, 1);
+	display: block;
 	position: absolute;
 	bottom: 10px;
 	width: 5vw;
-	height: 5vw;
+	height: 2vw;
+	transform: rotate(-45deg);
+	margin: 0 auto;
+	left: 48.6%;
+	bottom: 40px;
+	border-radius: 7px;
+}
+.arrow:after {
+	content: ' ';
+	background: rgba(0, 0, 0, 1);
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	width: 5vw;
+	height: 2vw;
 	transform: rotate(45deg);
+	margin: 0 auto;
+	right: 48.6%;
+	bottom: 40px;
+	border-radius: 7px;
+}
+@media (prefers-color-scheme: dark) {
+	.arrow:before {
+		content: ' ';
+		background: rgba(256, 256, 256, 1);
+		display: block;
+		position: absolute;
+		bottom: 10px;
+		width: 5vw;
+		height: 2vw;
+		transform: rotate(-45deg);
+		margin: 0 auto;
+		left: 48.6%;
+		bottom: 40px;
+		border-radius: 7px;
+	}
+	.arrow:after {
+		content: ' ';
+		background: rgba(256, 256, 256, 1);
+		display: block;
+		position: absolute;
+		bottom: 10px;
+		width: 5vw;
+		height: 2vw;
+		transform: rotate(45deg);
+		margin: 0 auto;
+		right: 48.6%;
+		bottom: 40px;
+		border-radius: 7px;
+	}
 }
 h1, h2, h3, h4, h5, h6, figure {
   font-family: "Source Sans Pro", sans-serif;
