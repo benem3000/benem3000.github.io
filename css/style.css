@@ -38,6 +38,7 @@ body {
 		letter-spacing: .5px;
 		line-height: 1.7;
 		color: #fbfbfb;
+		background: rgba(60, 60, 60, 0.957);
 	}
 }
 #page {
@@ -52,21 +53,6 @@ body {
   background-position: center;
   background-color: rgba(220, 220, 220, 1);
   background-size: auto;
-}
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -100;
-  background: url("../images/Newlogo.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 @media (prefers-color-scheme: dark) {
 	#page {
@@ -120,8 +106,7 @@ p {
 #header {
 	height: 100vh;
 	width: 100vw;
-	background: transparent;
-	position: relative;
+	background: url("../images/Newlogo.png") no-repeat 0 0 fixed;;
 }
 .arrow {
 	width: 2vw;
