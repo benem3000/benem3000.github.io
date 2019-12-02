@@ -141,13 +141,12 @@ p {
 	background: rgba(0, 0, 0, 1);
 	display: block;
 	position: absolute;
-	bottom: 10px;
 	width: 5vw;
 	height: 2vw;
 	transform: rotate(-45deg);
 	margin: 0 auto;
 	left: 48.6%;
-	bottom: 40px;
+	bottom: 80px;
 	border-radius: 7px;
 }
 .arrow:after {
@@ -155,13 +154,12 @@ p {
 	background: rgba(0, 0, 0, 1);
 	display: block;
 	position: absolute;
-	bottom: 10px;
 	width: 5vw;
 	height: 2vw;
 	transform: rotate(45deg);
 	margin: 0 auto;
 	right: 48.6%;
-	bottom: 40px;
+	bottom: 80px;
 	border-radius: 7px;
 }
 @media (prefers-color-scheme: dark) {
@@ -170,13 +168,12 @@ p {
 		background: rgba(256, 256, 256, 1);
 		display: block;
 		position: absolute;
-		bottom: 10px;
 		width: 5vw;
 		height: 2vw;
 		transform: rotate(-45deg);
 		margin: 0 auto;
 		left: 48.6%;
-		bottom: 40px;
+		bottom: 80px;
 		border-radius: 7px;
 	}
 	.arrow:after {
@@ -184,13 +181,12 @@ p {
 		background: rgba(256, 256, 256, 1);
 		display: block;
 		position: absolute;
-		bottom: 10px;
 		width: 5vw;
 		height: 2vw;
 		transform: rotate(45deg);
 		margin: 0 auto;
 		right: 48.6%;
-		bottom: 40px;
+		bottom: 80px;
 		border-radius: 7px;
 	}
 }
