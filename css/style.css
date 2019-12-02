@@ -45,6 +45,14 @@ body {
 	  -o-background-size: 30%;
 	  background-size: 30%;
 }
+	@media screen and (max-width: 768px) {
+		body:before{
+		  -webkit-background-size: 60%;
+		  -moz-background-size: 60%;
+		  -o-background-size: 60%;
+		  background-size: 60%;
+		}
+	}
 }
 @media (prefers-color-scheme: dark) {
 	body {
@@ -71,6 +79,14 @@ body {
 	  -moz-background-size: 30%;
 	  -o-background-size: 30%;
 	  background-size: 30%;
+	}
+		@media screen and (max-width: 768px) {
+		body:before{
+		  -webkit-background-size: 60%;
+		  -moz-background-size: 60%;
+		  -o-background-size: 60%;
+		  background-size: 60%;
+		}
 	}
 }
 #page {
@@ -146,7 +162,7 @@ p {
 	transform: rotate(-45deg);
 	margin: 0 auto;
 	left: 48.6%;
-	bottom: 80px;
+	bottom: 40px;
 	border-radius: 7px;
 }
 .arrow:after {
@@ -159,7 +175,7 @@ p {
 	transform: rotate(45deg);
 	margin: 0 auto;
 	right: 48.6%;
-	bottom: 80px;
+	bottom: 40px;
 	border-radius: 7px;
 }
 @media (prefers-color-scheme: dark) {
@@ -173,7 +189,7 @@ p {
 		transform: rotate(-45deg);
 		margin: 0 auto;
 		left: 48.6%;
-		bottom: 80px;
+		bottom: 40px;
 		border-radius: 7px;
 	}
 	.arrow:after {
@@ -186,7 +202,7 @@ p {
 		transform: rotate(45deg);
 		margin: 0 auto;
 		right: 48.6%;
-		bottom: 80px;
+		bottom: 40px;
 		border-radius: 7px;
 	}
 }
