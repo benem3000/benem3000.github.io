@@ -262,6 +262,12 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0px;
   width: 100vw;
   z-index: 9999;
+  background: rgba(220, 220, 220, 1);
+}
+@media (prefers-color-scheme: dark) {
+	.fh5co-nav .top-menu {
+		background: rgba(60, 60, 60, 1);
+	}
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .top-menu {
@@ -992,18 +998,11 @@ input[type="text"] {
 
 #fh5co-footer {
   margin: 0 auto !important;
-  margin-top: 20px !important;
   background: rgba(220, 220, 220, 0.957) !important;
-  -webkit-box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
-  -moz-box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
-  box-shadow: inset 0px 0px 100px 5px rgba(220, 220, 220, 0.65) !important;
 }
 @media (prefers-color-scheme: dark) {
 	#fh5co-footer {
 		background: rgba(60, 60, 60, 0.957) !important;
-		-webkit-box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
-		-moz-box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
-		box-shadow: inset 0px 0px 100px 5px rgba(60, 60, 60, 0.65) !important;
 	}
 }
 #fh5co-footer .fh5co-footer-links {
