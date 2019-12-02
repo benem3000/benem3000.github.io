@@ -20,10 +20,10 @@ body:before {
   height: 100%;
   z-index: -10;
   background: url("../images/Newlogo.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 30%;
+  -moz-background-size: 30%;
+  -o-background-size: 30%;
+  background-size: 30%;
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
@@ -54,9 +54,9 @@ body {
 	  height: 100%;
 	  z-index: -10;
 	  background: url("../images/Newlogo.png") no-repeat center center;
-	  -webkit-background-size: auto;
-	  -moz-background-size: auto;
-	  -o-background-size: auto;
+	  -webkit-background-size: 30%;
+	  -moz-background-size: 30%;
+	  -o-background-size: 30%;
 	  background-size: 30%;
 }
 }
@@ -80,9 +80,9 @@ body {
 	  height: 100%;
 	  z-index: -10;
 	  background: url("../images/Newlogo_White.png") no-repeat center center;
-	  -webkit-background-size: auto;
-	  -moz-background-size: auto;
-	  -o-background-size: auto;
+	  -webkit-background-size: 30%;
+	  -moz-background-size: 30%;
+	  -o-background-size: 30%;
 	  background-size: 30%;
 	}
 }
