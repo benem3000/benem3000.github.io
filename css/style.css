@@ -144,66 +144,29 @@ p {
 	width: 100vw;
 	background: transparent;
 	position: relative;
+	animation: show .2s ease 1s 1;
+	-webkit-animation: show 2s ease 1s 1;
 }
-.arrow {
-	width: 2vw;
-	height: 2vw;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-}
-.arrow:before {
-	content: ' ';
-	background: rgba(0, 0, 0, 1);
-	display: block;
-	position: absolute;
-	width: 5vw;
-	height: 2vw;
-	transform: rotate(-45deg);
-	margin: 0 auto;
-	left: 48.6%;
-	bottom: 40px;
-	border-radius: 7px;
-}
-.arrow:after {
-	content: ' ';
-	background: rgba(0, 0, 0, 1);
-	display: block;
-	position: absolute;
-	width: 5vw;
-	height: 2vw;
-	transform: rotate(45deg);
-	margin: 0 auto;
-	right: 48.6%;
-	bottom: 40px;
-	border-radius: 7px;
-}
-@media (prefers-color-scheme: dark) {
-	.arrow:before {
-		content: ' ';
-		background: rgba(256, 256, 256, 1);
-		display: block;
-		position: absolute;
-		width: 5vw;
-		height: 2vw;
-		transform: rotate(-45deg);
-		margin: 0 auto;
-		left: 48.6%;
-		bottom: 40px;
-		border-radius: 7px;
+@keyframes show {
+	0% {
+		height: 100vh;
 	}
-	.arrow:after {
-		content: ' ';
-		background: rgba(256, 256, 256, 1);
-		display: block;
-		position: absolute;
-		width: 5vw;
-		height: 2vw;
-		transform: rotate(45deg);
-		margin: 0 auto;
-		right: 48.6%;
-		bottom: 40px;
-		border-radius: 7px;
+	50% {
+		height: 90vh;
+	}
+	100% {
+		height: 100vh;
+	}
+}
+@-webkit-keyframes show {
+	0% {
+		height: 100vh;
+	}
+	50% {
+		height: 90vh;
+	}
+	100% {
+		height: 100vh;
 	}
 }
 h1, h2, h3, h4, h5, h6, figure {
@@ -232,8 +195,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   -moz-box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
   box-shadow: inset 0px 0px 100px 25px rgba(220, 220, 220, 0.65);
-  background: rgba(220, 220, 220, 1)
+  background: rgba(220, 220, 220, 1);
 }
+
 @media (prefers-color-scheme: dark) {
 	.container-wrap {
   -webkit-box-shadow: inset 0px 0px 100px 25px rgba(60, 60, 60, 0.65);
@@ -761,13 +725,16 @@ blockquote {
 /* Dropdown Button */
 .panel {
   color: inherit;
-  background: rgba(60, 60, 60, 0.13);
+  background: rgba(20, 20, 20, 0.2);
   border-radius: 7px;
   width: 100%;
   font-size: 16px;
   border: none;
   cursor: pointer;
   transition: all 1s;
+}
+.nested .panel-default > .panel-heading{
+	background: rgba(220, 220, 220, .1);
 }
 .collapse {
 	overflow: hidden;
@@ -778,8 +745,11 @@ blockquote {
 .panel-title {
 	font-size: 24px;
 }
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+	border: none;
+}
 .panel-default > .panel-heading {
-	background: rgba(60, 60, 60, 0.13);
+	background: rgba(20, 20, 20, 0.2);
 	border: none;
 	color: inherit;
 }
