@@ -10,9 +10,6 @@
 * 	Template Style 
 *
 * ======================================================= */
-html {
-height: 100%;
-}
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
@@ -165,9 +162,6 @@ a:hover, a:active, a:focus {
 }
 p {
   margin-bottom: 20px;
-}
-#header-container {
-	height: 100%;
 }
 #header {
 	height: 100vh;
